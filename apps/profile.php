@@ -14,7 +14,7 @@ if (empty($_SESSION['user_id'])) {
 // セッションmeからデータ取り出し
 $user_id = $_SESSION['user_id'];
 $user_name = $SESSION['user_name'];
-$user_point = $SESSION['user_point'];
+$user_point = $SESSION['point'];
 ?>
 
 <html>
@@ -36,7 +36,7 @@ $user_point = $SESSION['user_point'];
 <section>
 <h1>ようこそ <?php echo h($user_name);?>さん</h1>
 <img src="" alt="アバター">
-<p>所持ポイント：<?php echo h($user_point);?></p>
+<p>所持ポイント：<?php echo h($point);?></p>
 </section>
 
 </body>
