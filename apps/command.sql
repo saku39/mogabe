@@ -31,6 +31,6 @@ create table user_cards{
 };
 
 insert into user_cards('user_id', 'card_id', 'card_num') values
-('sasashou'', 1, 1),
-('sasashou'', 2, 1),
-('ken1988'', 3, 1);
+('sasashou', 1, 1),
+('sasashou', 2, 1),
+('ken1988', 3, 1);
