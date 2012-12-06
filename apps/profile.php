@@ -34,9 +34,9 @@ google.load("jqueryui", "1.8");
 <nav>
 <ul>
 <li>TOP</li>
-<li>プロフィール画面</li>
+<li><a href="#">プロフィール画面</a></li>
 <li>カード一覧画面</li>
-<li>ガチャ画面</li>
+<li><a href="./gashapon.php">ガチャ画面</a></li>
 </ul>
 </nav>
 <section>
