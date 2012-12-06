@@ -56,7 +56,7 @@ jQuery( function() {
 <section>
 <h1>ようこそ <?php echo h($user_id);?>さん</h1>
 <div>
-<img src="./Image/<?php echo h($user_id);?>.png" alt="アバター">
+<img src="./Image/<?php echo h($user_id);?>.png" alt="アバター"  width="250" height="250">
 <p>所持ポイント：<?php echo h($point);?></p>
 </div>
 </section>
