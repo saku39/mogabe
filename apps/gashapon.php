@@ -27,7 +27,21 @@ $user_point = $SESSION['point'];
 <script type="text/javascript">
 google.load("jquery", "1.7");
 google.load("jqueryui", "1.8");
+<!--
+jQuery( function() {
+    jQuery( '#gmenu' ) . buttonset();
+} );
+// -->
 </script>
+<style>
+<!--
+#gmenu li{
+    font-size: 14px;
+    margin: 0;
+    float: left;
+}
+-->
+</style>
 
 <script type="text/javascript">
 <!--
