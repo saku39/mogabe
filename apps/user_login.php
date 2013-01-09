@@ -76,6 +76,8 @@ a:
     <body>
     <div>
     <?php echo h($errmsg);?>
+    </br>
+    <a href="login.html">戻る</a>
     </div>
     </body>
 </html>
